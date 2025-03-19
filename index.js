@@ -83,7 +83,7 @@ async function scrapeInstagramProfile(username) {
             ?.content?.split("instagram.com/")[1]
             ?.replace(/\//g, "") || "",
         name,
-        bio, // Hanya teks bio tanpa informasi followers, following, dan posts
+        bio,
         followers,
         following,
         posts,
